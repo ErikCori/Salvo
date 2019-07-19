@@ -18,6 +18,7 @@ public class Player {
     public Player(){}
 
     public Player(String username){
+
         this.username = username;
     }
 
@@ -26,9 +27,11 @@ public class Player {
     }
 
     public String getUsername() {
+
         return username;
     }
     public String toString() {
+
         return username;
     }
 }
